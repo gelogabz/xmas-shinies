@@ -57,3 +57,5 @@ function switchtoDark() {
     var element = document.body;
     element.classList.toggle("darkMode");
 }
+
+//end of code
