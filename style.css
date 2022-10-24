@@ -12,8 +12,12 @@ body {
     background-attachment: local;
     background-position: bottom left;
     background-color: whitesmoke;
-    background-;
     z-index: -1;
+}
+
+.darkMode {
+    background-color: #212529;
+    color: #f8f9fa;
 }
 
 .container {

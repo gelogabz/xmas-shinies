@@ -47,3 +47,10 @@ function stopShinies() {
     clearInterval(start_the_shiny);
     location.reload();
 }
+
+//for dark mode cos i hate light mode
+
+function switchtoDark() {
+    var element = document.body;
+    element.classList.toggle("darkMode");
+}
