@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./assets/iconWhite.png" />
+        <link rel="stylesheet" href="./sass/main.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+        <title>WD20P - Twinkly Christmas</title>
+    </head>
+
+    <body>
+        <nav class="navbar bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/FullnameIcon.png" alt="GeloBaring" class="w-50">
+                </a>
+            </div>
+        </nav>
+        <header class="container-fluid p-2 justify-content-center mx-auto">
+            <h1 class="text-center text-dark display-5 p-1">Just in time for Christmas!</h1>
+            <!-- <hr /> -->
+        </header>
+
+        <main class="container-fluid">
+            <section>
+
+                <div class="text-center justify-content-center mx-auto">
+                    <p class="text-dark lead">Click the buttons to start or stop the Tree's shinies!</p>
+
+                    <button type="button" class="btn btn-success mb-2" onclick="startShinies();">Make it shine!</button>
+                    <button type="button" class="btn btn-outline-secondary mb-2" onclick="stopShinies();">Stop!</button>
+
+                    <p id="whatColor" class="my-2 text-muted fst-italic">What are the colors?</p>
+                </div>
+
+                <div class="container my-3">
+                    <div class="tree"></div>
+
+                    <div class="ornament large orange or1">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament medium blue or2">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament small green or3">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament small pink or4">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament large purple or5">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament medium purple or6">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament medium blue or7">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament large pink or8">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament medium orange or9">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament medium green or10">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament large pink or11">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="ornament blue large or12">
+                        <div class="shine"></div>
+                    </div>
+
+                    <div class="star-light"></div>
+                    <div class="star"></div>
+                    <div class="star-highlight"></div>
+                    <div class="trunk"></div>
+                    <div class="floor"></div>
+                </div>
+                <!-- <input type="text" id="colorField" placeholder="#FFFFFF, rgb(255, 255, 255), or white..."
+                            class="form-control form-control-sm"> -->
+
+            </section>
+        </main>
+
+        <!-- Footer start -->
+        <br><br>
+        <footer class="bottom container-fluid py-1 w-50">
+            <ul class="nav justify-content-center mt-3 border-bottom">
+                <li><a href="https://twitter.com/gelogabz" class="nav-link px-2 text-primary" target="_blank"><i
+                            class="nav-item bi bi-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/thegeloman/" class="nav-link px-2 text-primary"
+                        target="_blank"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://github.com/gelogabz" class="nav-link px-2 text-primary" target="_blank"><i
+                            class="bi bi-github"></i></a></li>
+                <li><a href="https://www.reddit.com/user/gelogabz" class="nav-link px-2 text-primary" target="_blank"><i
+                            class="bi bi-reddit"></i></a></li>
+            </ul>
+            <p id="footer-text" class="text-center text-muted m-1">&copy;2022 <br>Gelo Baring for WD20P </p>
+        </footer>
+        <!-- Footer end -->
+
+    </body>
+
+    <script src="app.js"></script>
+
+</html>
