@@ -45,6 +45,9 @@ function startShinies() {
 
 function stopShinies() {
     clearInterval(start_the_shiny);
+}
+
+function resetShinies() {
     location.reload();
 }
 
